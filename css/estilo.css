@@ -258,7 +258,84 @@ width: 50%
   margin-top: 30px;
 }
   /* TESTE */
+
+
+ #hobby{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+width: 100%;
+background-color: #E0FFFF;
+
+ }
+
+ #hobby h2{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  text-align: center;
+
+ }
  
+ .hobby {
+  width: 80%;
+  align-items: center;
+  text-align: center;
+ }
+
+.boddy h3{
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 14px; 
+
+}
+
+/*contato */
+
+
+ #contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #E0FFFF;
+    width: 100%;
+ }
+
+ #contato h2 {
+  margin-left: 20px;
+  margin-right: : 20px;
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  font-size: 1.5em;
+  text-align: center;
+  color: #778899 ;
+ }
+  
+
+#contato a{
+  text-decoration: none;
+  color: #0000FF;
+  font-family: "Roboto","Open Sans", "sans-serif"; sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: black;
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  color: #f1f1f1;
+}
 
 
 @media screen and (min-width:  786px){
@@ -355,8 +432,9 @@ header{
     text-align: center;
   }
 
-  /*contato*/
-  #contato{
+
+  
+    #contato {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -367,10 +445,10 @@ header{
     width: 100%;
   }
 
-  #contato h2, #contato p{
+
+
+  #contato h2,
+  #contatop p {
     width: 100%;
     text-align: center;
   }
-
-
-  
